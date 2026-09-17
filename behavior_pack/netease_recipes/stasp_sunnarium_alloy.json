@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"stasp:sunnarium_alloy"},"tags":["crafting_table"],"pattern":["PPP","PSP","PPP"],"key":{"P":{"item":"skybluetech:platinum_ingot"},"S":{"item":"stasp:sunnarium"}},"result":{"item":"stasp:sunnarium_alloy","count":1},"unlock":{"context":"AlwaysUnlocked"}}}

@@ -1,0 +1,22 @@
+*.pyc
+__pycache__/
+
+
+# pack addon
+addon.zip
+pack_addon.py
+pack.cmd
+
+# sb mcs
+.mcs
+studio.json
+world_*_packs*.json
+
+# ide
+.vscode
+.mcdev.json
+
+# agent
+AGENTS.md
+CLAUDE.md
+GEMINI.md

@@ -1,0 +1,19 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "SkyBlueTech Advanced Solar BP",
+        "description": "Advanced solar generators for SkyBlueTech",
+        "uuid": "ab38a0c1-8fd6-4e1b-ac39-e8db5f1e4daa",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [{
+        "type": "data",
+        "uuid": "f531757c-ff38-48f2-ac54-723fe596c66c",
+        "version": [1, 0, 0]
+    }],
+    "dependencies": [
+        {"uuid": "035352c7-f9e9-4fa8-acbd-651f232390d7", "version": [1, 0, 0]},
+        {"uuid": "08989243-f184-4393-9e2d-9143a7be95de", "version": [0, 0, 1]}
+    ]
+}

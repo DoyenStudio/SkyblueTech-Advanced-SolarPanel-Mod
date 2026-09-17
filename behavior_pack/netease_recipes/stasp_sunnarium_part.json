@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"stasp:sunnarium_part"},"tags":["crafting_table"],"pattern":[" G ","GPG"," G "],"key":{"G":{"item":"minecraft:glowstone_dust"},"P":{"item":"skybluetech:platinum_ingot"}},"result":{"item":"stasp:sunnarium_part","count":1},"unlock":{"context":"AlwaysUnlocked"}}}

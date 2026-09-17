@@ -1,0 +1,9 @@
+{
+    "category": [
+        {
+            "icon": "textures/items/stasp/sunnarium",
+            "labelText": "itemCategory.name.stasp",
+            "name": "stasp"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "SkyBlueTech Advanced Solar RP",
+        "description": "Resources for SkyBlueTech advanced solar generators",
+        "uuid": "035352c7-f9e9-4fa8-acbd-651f232390d7",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [{
+        "type": "resources",
+        "uuid": "485402b4-d41f-4557-a9eb-f0ebd216dcfa",
+        "version": [1, 0, 0]
+    }],
+    "dependencies": [
+        {"uuid": "115d5cb7-71d4-4aba-be8d-5282802c707c", "version": [0, 0, 1]}
+    ]
+}

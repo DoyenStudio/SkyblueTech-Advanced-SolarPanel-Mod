@@ -1,0 +1,14 @@
+tile.stasp:advanced_solar_panel.name=高级太阳能电池板
+tile.stasp:hybrid_solar_panel.name=混合太阳能电池板
+tile.stasp:ultimate_solar_panel.name=终极太阳能电池板
+tile.stasp:quantum_solar_panel.name=量子太阳能电池板
+item.stasp:irradiant_glass_pane.name=辐照玻璃板
+item.stasp:sunnarium_part.name=阳光化合物部件
+item.stasp:sunnarium.name=阳光化合物
+item.stasp:sunnarium_alloy.name=阳光合金
+item.stasp:enriched_sunnarium.name=富集阳光化合物
+item.stasp:enriched_sunnarium_alloy.name=富集阳光合金
+item.stasp:quantum_core.name=量子核心
+itemGroup.stasp.solar_panels=高级太阳能
+itemGroup.stasp.components=高级太阳能组件
+itemCategory.name.stasp=蔚蓝科技 · 高级太阳能

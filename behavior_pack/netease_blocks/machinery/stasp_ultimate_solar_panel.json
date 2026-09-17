@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.70",
+    "minecraft:block": {
+        "description": {"identifier": "stasp:ultimate_solar_panel", "base_block": "netease_container", "category": "stasp"},
+        "components": {
+            "minecraft:destructible_by_mining": {"seconds_to_destroy": 5.0},
+            "minecraft:geometry": {"identifier": "minecraft:geometry.full_block"},
+            "minecraft:light_dampening": 0,
+            "minecraft:material_instances": {
+                "up": {"texture": "stasp:ultimate_solar_top", "render_method": "opaque"},
+                "down": {"texture": "stasp:ultimate_solar_bottom", "render_method": "opaque"},
+                "north": {"texture": "stasp:ultimate_solar_side", "render_method": "opaque"},
+                "south": {"texture": "stasp:ultimate_solar_side", "render_method": "opaque"},
+                "east": {"texture": "stasp:ultimate_solar_side", "render_method": "opaque"},
+                "west": {"texture": "stasp:ultimate_solar_side", "render_method": "opaque"}
+            },
+            "netease:block_container": {"container_size": 1, "custom_description": "终极太阳能电池板", "screen_name": "STASPSolarPanelUI.main"},
+            "netease:block_entity": {"movable": false, "tick": true},
+            "netease:custom_tips": {"value": "\n§7高效的太阳能发电机， 内置单充能槽。\n§b白天峰值: §a1024 RF/t§7； §b夜间谷值： §a128 RF/t"},
+            "netease:listen_block_remove": {"value": true},
+            "netease:tier": {"destroy_special": true, "digger": "pickaxe", "level": 3},
+            "tag:piston_denier": {}, "tag:redstoneflux_connectable": {}, "tag:redstoneflux_generator": {}, "tag:redstoneflux_provider": {},
+            "tag:skybluetech_generator": {}, "tag:skybluetech_machine": {}, "tag:skybluetech_container": {}
+        }
+    }
+}

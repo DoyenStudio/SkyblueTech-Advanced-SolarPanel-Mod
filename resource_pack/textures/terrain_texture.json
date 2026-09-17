@@ -1,0 +1,20 @@
+{
+    "resource_pack_name": "stasp",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "stasp:advanced_solar_top": {"textures": "textures/blocks/stasp/advanced_solar_top"},
+        "stasp:advanced_solar_side": {"textures": "textures/blocks/stasp/advanced_solar_side"},
+        "stasp:advanced_solar_bottom": {"textures": "textures/blocks/stasp/advanced_solar_bottom"},
+        "stasp:hybrid_solar_top": {"textures": "textures/blocks/stasp/hybrid_solar_top"},
+        "stasp:hybrid_solar_side": {"textures": "textures/blocks/stasp/hybrid_solar_side"},
+        "stasp:hybrid_solar_bottom": {"textures": "textures/blocks/stasp/hybrid_solar_bottom"},
+        "stasp:ultimate_solar_top": {"textures": "textures/blocks/stasp/ultimate_solar_top"},
+        "stasp:ultimate_solar_side": {"textures": "textures/blocks/stasp/ultimate_solar_side"},
+        "stasp:ultimate_solar_bottom": {"textures": "textures/blocks/stasp/ultimate_solar_bottom"},
+        "stasp:quantum_solar_top": {"textures": "textures/blocks/stasp/quantum_solar_top"},
+        "stasp:quantum_solar_side": {"textures": "textures/blocks/stasp/quantum_solar_side"},
+        "stasp:quantum_solar_bottom": {"textures": "textures/blocks/stasp/quantum_solar_bottom"}
+    }
+}

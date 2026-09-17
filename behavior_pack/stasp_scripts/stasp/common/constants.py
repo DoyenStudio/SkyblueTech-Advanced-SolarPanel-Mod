@@ -1,0 +1,12 @@
+# coding=utf-8
+K_LIGHT_LEVEL = "stasp:light_level"
+K_OUTPUT_POWER = "stasp:output_power"
+K_MAX_OUTPUT = "stasp:max_output"
+K_NIGHT_OUTPUT = "stasp:night_output"
+K_CHARGE_RF = "stasp:charge_rf"
+K_CHARGE_RF_MAX = "stasp:charge_rf_max"
+K_DISPLAY_NAME = "stasp:display_name"
+ADVANCED_SOLAR_PANEL = "stasp:advanced_solar_panel"
+HYBRID_SOLAR_PANEL = "stasp:hybrid_solar_panel"
+ULTIMATE_SOLAR_PANEL = "stasp:ultimate_solar_panel"
+QUANTUM_SOLAR_PANEL = "stasp:quantum_solar_panel"

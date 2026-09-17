@@ -1,0 +1,13 @@
+{
+    "resource_pack_name": "stasp",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "stasp:irradiant_glass_pane": {"textures": "textures/items/stasp/irradiant_glass_pane"},
+        "stasp:sunnarium_part": {"textures": "textures/items/stasp/sunnarium_part"},
+        "stasp:sunnarium": {"textures": "textures/items/stasp/sunnarium"},
+        "stasp:sunnarium_alloy": {"textures": "textures/items/stasp/sunnarium_alloy"},
+        "stasp:enriched_sunnarium": {"textures": "textures/items/stasp/enriched_sunnarium"},
+        "stasp:enriched_sunnarium_alloy": {"textures": "textures/items/stasp/enriched_sunnarium_alloy"},
+        "stasp:quantum_core": {"textures": "textures/items/stasp/quantum_core"}
+    }
+}

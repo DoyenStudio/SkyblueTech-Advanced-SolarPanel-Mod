@@ -1,0 +1,14 @@
+tile.stasp:advanced_solar_panel.name=Advanced Solar Panel
+tile.stasp:hybrid_solar_panel.name=Hybrid Solar Panel
+tile.stasp:ultimate_solar_panel.name=Ultimate Solar Panel
+tile.stasp:quantum_solar_panel.name=Quantum Solar Panel
+item.stasp:irradiant_glass_pane.name=Irradiant Reinforced Glass Pane
+item.stasp:sunnarium_part.name=Sunnarium Part
+item.stasp:sunnarium.name=Sunnarium
+item.stasp:sunnarium_alloy.name=Sunnarium Alloy
+item.stasp:enriched_sunnarium.name=Enriched Sunnarium
+item.stasp:enriched_sunnarium_alloy.name=Enriched Sunnarium Alloy
+item.stasp:quantum_core.name=Quantum Core
+itemGroup.stasp.solar_panels=Advanced Solar
+itemGroup.stasp.components=Advanced Solar Components
+itemCategory.name.stasp=Advanced Solar

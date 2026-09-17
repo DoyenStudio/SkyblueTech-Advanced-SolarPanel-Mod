@@ -1,0 +1,3 @@
+[submodule "behavior_pack/stasp_scripts/tooldelta"]
+	path = behavior_pack/stasp_scripts/tooldelta
+	url = https://github.com/SuperScript-PRC/ToolDeltaMod.git
