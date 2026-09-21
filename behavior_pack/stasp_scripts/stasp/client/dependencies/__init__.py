@@ -6,3 +6,4 @@
 任何注册或副作用; 具体用法见各子模块。运行时实现是 .py, 旁边的同名 .pyi 只给
 Pylance / Pyright 补类型用。
 """
+from . import guidance

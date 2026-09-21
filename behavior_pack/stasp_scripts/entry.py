@@ -3,10 +3,13 @@
 
 def init_server():
     from mod.server.extraServerApi import ImportModule
+
+    from stasp_scripts.stasp.common import dependency_warning
     from stasp_scripts.stasp.common.dependencies import SkyblueTechServerLoaded
 
     @SkyblueTechServerLoaded.Listen()
     def on_skybluetech_server_loaded(_):
+        dependency_warning.mark_loaded()
         from stasp_scripts.stasp import server
 
     if ImportModule("skybluetech_scripts") is not None:
