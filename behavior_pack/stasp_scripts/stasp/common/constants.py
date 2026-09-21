@@ -1,4 +1,6 @@
 # coding=utf-8
+NAMESPACE = "stasp"
+DISPLAY_NAME = "高级太阳能"
 K_LIGHT_LEVEL = "stasp:light_level"
 K_OUTPUT_POWER = "stasp:output_power"
 K_MAX_OUTPUT = "stasp:max_output"
