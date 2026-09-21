@@ -12,40 +12,21 @@ from ..common.constants import (
     QUANTUM_SOLAR_PANEL,
     ULTIMATE_SOLAR_PANEL,
 )
-from ..common.modules import ImportModule
-
-# 前置模组的模块: 跨包 import 语句会被机审判为未知模块, 统一按字符串路径取。
-_charge_util = ImportModule(
-    "skybluetech_scripts.skybluetech.server.machinery.utils.charge"
+from .dependencies.machinery import (
+    BaseGenerator,
+    ChargeItem,
+    GetCharge,
+    GetIOPower,
+    GetLocalTime,
+    GetSkylightLevelClear,
+    GetSkylightLevelRain,
+    GetTopBlockHeight,
+    GUIControl,
+    IsRaining,
+    ItemContainer,
+    RegisterMachine,
+    SuperExecutorMeta,
 )
-_machinery_basic = ImportModule(
-    "skybluetech_scripts.skybluetech.server.machinery.basic"
-)
-_server_api = ImportModule("skybluetech_scripts.tooldelta.api.server")
-_solar_panel_util = ImportModule(
-    "skybluetech_scripts.skybluetech.server.machinery.solar_panel"
-)
-_super_executor = ImportModule(
-    "skybluetech_scripts.tooldelta.extensions.super_executor"
-)
-
-ChargeItem = _charge_util.ChargeItem
-GetCharge = _charge_util.GetCharge
-GetIOPower = _charge_util.GetIOPower
-
-BaseGenerator = _machinery_basic.BaseGenerator
-GUIControl = _machinery_basic.GUIControl
-ItemContainer = _machinery_basic.ItemContainer
-RegisterMachine = _machinery_basic.RegisterMachine
-
-GetLocalTime = _server_api.GetLocalTime
-GetTopBlockHeight = _server_api.GetTopBlockHeight
-IsRaining = _server_api.IsRaining
-
-GetSkylightLevelClear = _solar_panel_util.GetSkylightLevelClear
-GetSkylightLevelRain = _solar_panel_util.GetSkylightLevelRain
-
-SuperExecutorMeta = _super_executor.SuperExecutorMeta
 
 
 class AdvancedSolarPanelBase(BaseGenerator, ItemContainer, GUIControl):
@@ -87,8 +68,11 @@ class AdvancedSolarPanelBase(BaseGenerator, ItemContainer, GUIControl):
     def OnUnload(self):
         pass
 
-    def IsValidInput(self, slot, item):
-        # type: (int, object) -> bool
+    def IsValidInput(
+        self,
+        slot,  # type: int
+        item,
+    ):
         if slot != 0:
             return False
         return not (
@@ -151,15 +135,17 @@ class AdvancedSolarPanelBase(BaseGenerator, ItemContainer, GUIControl):
 
     @property
     def charge_rf(self):
-        return int(self._charge_rf) # NOTE: 可能需要 long
+        return int(self._charge_rf)  # NOTE: 可能需要 long
 
     @charge_rf.setter
     def charge_rf(self, value):
-        self.bdata[K_CHARGE_RF] = self._charge_rf = float(value) # NOTE: 避免方块实体无法存 long 的 bug
+        self.bdata[K_CHARGE_RF] = self._charge_rf = float(
+            value
+        )  # NOTE: 避免方块实体无法存 long 的 bug
 
     @property
     def charge_rf_max(self):
-        return int(self._charge_rf_max) # NOTE: 可能需要 long
+        return int(self._charge_rf_max)  # NOTE: 可能需要 long
 
     @charge_rf_max.setter
     def charge_rf_max(self, value):

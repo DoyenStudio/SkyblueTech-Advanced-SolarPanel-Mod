@@ -1,5 +1,5 @@
 # coding=utf-8
-from .modules import ImportModule
+from ..modules import ImportModule
 
 # 前置模组的模块: 跨包 import 语句会被机审判为未知模块, 统一按字符串路径取。
 _charger_def = ImportModule(
