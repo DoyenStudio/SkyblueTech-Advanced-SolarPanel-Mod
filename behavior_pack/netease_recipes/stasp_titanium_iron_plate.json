@@ -1,0 +1,1 @@
+{"format_version":"1.20.10","minecraft:recipe_shaped":{"description":{"identifier":"stasp:titanium_iron_plate"},"tags":["crafting_table"],"pattern":["III","ITI","III"],"key":{"I":{"item":"skybluetech:iron_plate"},"T":{"item":"skybluetech:titanium_ingot"}},"result":{"item":"stasp:titanium_iron_plate","count":1},"unlock":{"context":"AlwaysUnlocked"}}}

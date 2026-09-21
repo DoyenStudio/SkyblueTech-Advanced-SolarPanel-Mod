@@ -2,6 +2,11 @@
     "resource_pack_name": "stasp",
     "texture_name": "atlas.items",
     "texture_data": {
+        "stasp:titanium_iron_plate": {"textures": "textures/items/stasp/titanium_iron_plate"},
+        "stasp:reinforced_titanium_iron_plate": {"textures": "textures/items/stasp/reinforced_titanium_iron_plate"},
+        "stasp:irradiant_titanium_iron_plate": {"textures": "textures/items/stasp/irradiant_titanium_iron_plate"},
+        "stasp:integrated_solar_panel_pane": {"textures": "textures/items/stasp/integrated_solar_panel_pane"},
+        "stasp:irradiant_uranium": {"textures": "textures/items/stasp/irradiant_uranium"},
         "stasp:irradiant_glass_pane": {"textures": "textures/items/stasp/irradiant_glass_pane"},
         "stasp:sunnarium_part": {"textures": "textures/items/stasp/sunnarium_part"},
         "stasp:sunnarium": {"textures": "textures/items/stasp/sunnarium"},

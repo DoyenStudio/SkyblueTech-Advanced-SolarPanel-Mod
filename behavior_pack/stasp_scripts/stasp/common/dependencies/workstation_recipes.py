@@ -14,7 +14,9 @@ from ..constants import (
     ADVANCED_SOLAR_PANEL,
     ENRICHED_SUNNARIUM,
     HYBRID_SOLAR_PANEL,
+    INTEGRATED_SOLAR_PANEL_PANE,
     IRRADIANT_GLASS_PANE,
+    IRRADIANT_TITANIUM_IRON_PLATE,
     QUANTUM_CORE,
     QUANTUM_SOLAR_PANEL,
     ULTIMATE_SOLAR_PANEL,
@@ -38,7 +40,7 @@ MRecipe = _workstation_jei.MachineryWorkstationRecipe
 # 槽位沿用本体加工台的 0-8 行优先排布, 与工作台九宫格一一对应。
 # 第 3/4/5 个参数分别是所需扳手等级、钳等级(0=不需要, 1=铁及以上, 2=殷钢及以上)与加工次数。
 _RECIPES = (
-    # advanced solar panel  GGG / TST / CPC
+    # advanced solar panel  GGG / TST / CIC
     MRecipe(
         {
             0: Input(IRRADIANT_GLASS_PANE),
@@ -48,7 +50,7 @@ _RECIPES = (
             4: Input("skybluetech:solar_panel"),
             5: Input("skybluetech:titanium_ingot"),
             6: Input("skybluetech:control_circuit_advanced"),
-            7: Input("skybluetech:platinum_plate"),
+            7: Input(IRRADIANT_TITANIUM_IRON_PLATE),
             8: Input("skybluetech:control_circuit_advanced"),
         },
         ADVANCED_SOLAR_PANEL,
@@ -56,15 +58,15 @@ _RECIPES = (
         MRecipe.LEVEL_IRON,
         8,
     ),
-    # hybrid solar panel  PLP / TAT / CEC
+    # hybrid solar panel  PLP / IAI / CEC
     MRecipe(
         {
             0: Input("skybluetech:platinum_plate"),
             1: Input("minecraft:lapis_block"),
             2: Input("skybluetech:platinum_plate"),
-            3: Input("skybluetech:titanium_ingot"),
+            3: Input(INTEGRATED_SOLAR_PANEL_PANE),
             4: Input(ADVANCED_SOLAR_PANEL),
-            5: Input("skybluetech:titanium_ingot"),
+            5: Input(INTEGRATED_SOLAR_PANEL_PANE),
             6: Input("skybluetech:control_circuit_advanced"),
             7: Input(ENRICHED_SUNNARIUM),
             8: Input("skybluetech:control_circuit_advanced"),

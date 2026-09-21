@@ -14,7 +14,12 @@
             "group_name": "itemGroup.stasp.components",
             "icon": "stasp:quantum_core",
             "list": [
+                "stasp:titanium_iron_plate",
+                "stasp:reinforced_titanium_iron_plate",
+                "stasp:irradiant_titanium_iron_plate",
                 "stasp:irradiant_glass_pane",
+                "stasp:irradiant_uranium",
+                "stasp:integrated_solar_panel_pane",
                 "stasp:sunnarium_part",
                 "stasp:sunnarium",
                 "stasp:sunnarium_alloy",
